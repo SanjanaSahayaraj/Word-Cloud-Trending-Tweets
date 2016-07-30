@@ -1,0 +1,108 @@
+
+body {
+background:#F0FFFF;
+height:800px;
+width:2000px;
+}
+
+
+#container {
+  padding-top:20px;
+  width: 2000px;
+height:500px;
+  border-left: 0.5px #ddd solid;
+  border-right: 0.5px #ddd solid;
+}
+
+header {
+  padding: 2px;
+  position:relative;
+}
+
+#book-title {
+  font-family: georgia, "Candara", times, serif;
+  color: #555;
+  font-size: 2.0em;
+  text-align: center;
+}
+
+#text-select {
+  float:right;
+  margin-right: 10px;
+}
+
+#vis {
+  overflow: hidden;
+  position: relative;
+  width: 2000px;
+height:500px;
+}
+
+/*svg{width:2500px;height:1500px;fill:#F0FFFF;}*/
+#status {
+  /*padding:0px 200px 20px 20px;*/
+margin:0px 0px 20px 300px;
+}
+/*
+#controls {
+  padding: 20px;
+  background-color: #eee;
+  margin: 10px;
+  width: 350px;
+}
+*/
+#bubble-background {
+  fill: #F0FFFF;
+  pointer-events: all;
+  width: 2000px;
+height:800px;
+}
+
+.bubble-node {
+ fill: #CD96CD;
+}
+
+.bubble-nodes
+{height:800px;
+width:2000px;
+fill:#F0FFFF;
+}
+
+.bubble-hover {
+  /* fill: #b8c7d9; */
+  fill: #CD69C9;
+}
+
+.bubble-selected {
+  /* fill: #a8c8ee;  */
+  /*fill: #CEE98F;*/
+  fill:lavender;
+  /* stroke: #6081a3; */
+  /*stroke: #A6BA92;
+  stroke-width: 1.5px;*/
+}
+
+.active {
+  color: #AB82FF
+}
+
+a.bubble-label {
+  font-family: georgia, "times new roman", times, serif;
+  font:12 px;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+
+.bubble-label .bubble-label-value {
+  font: 11px sans-serif;
+  white-space: nowrap;
+}
+
+
+
